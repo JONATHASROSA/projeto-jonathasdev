@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+:root{
+    --cor01:#120D26;
+    --cor02:#250C59;
+    --cor03:#482EF2;
+    --cor04:#4951F2;
+    --cor05:#05DBF2;
+    --cor06:#ffffff;
+
+    --fonte-padrao: 'Riviera';
+    --fonte-destaque: 'Elianto-Regular';
+}
+@font-face {
+    font-family:'Riviera';
+    src: url('FONTES/Riviera/Riviera.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:var(--cor01) ;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor02),var(--cor05));
+    min-height: 100px;
+    padding-top: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+nav {
+    background-color:var(--cor02) ;
+    color: var(--cor06);
+    padding: 10px;
+    box-shadow: 0px 7px 7px var(--cor01);
+}
+nav > a {
+    color:var(--cor06);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav > a:hover{
+    background-color: var(--cor04);
+    color: var(--cor02);
+}
+main {
+    background-color: var(--cor01);
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 15px;
+    text-align: justify;
+    text-indent: 35px; 
+    line-height: 1.3em;
+    font-size: 1.3em;
+}
+h1 {
+    font-family: 'Riviera';
+    font-weight: normal;
+    text-align: center;
+    color: var(--cor06);
+}
+h2 {
+    font-family: 'Riviera';
+    font-weight: normal;
+    text-align: left;
+    color: var(--cor06);
+    background-image: linear-gradient(to right, var(--cor03),var(--cor01));
+    margin: 15px;
+    padding: 10px 10px;
+}
+img{
+    border-radius: 27px;
+    margin: auto;
+    display: block;
+}
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    background-color: transparent;
+}
+ul {
+    color: var(--cor05);
+}
+article{
+    color: var(--cor06);
+    padding: 5px;
+    text-align: justify;
+}
+footer {
+    background-color:var(--cor02) ;
+    text-align: center;
+    color: var(--cor06);
+    padding: 1px;
+    margin: 0px;
+}
