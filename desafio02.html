@@ -13,14 +13,29 @@
     <title>Imagens/Desafio-02</title>
     </head>
 <body>
-    <h1 style="text-align: center;">Desafio das imagens</h1>
+    <h1 style="text-align: center;">Desafio das imagens dinâmicas.</h1>
     <p>Inserir uma imagem em HTML é muito sinples, tanto no conteúdo, quanto lá em cima no icone de favoritos!</p>
     <h2>Logotipo da marca Jonathas.RevisaTexto.</h2>
-    <p><img src="imagens/logo1.png" alt="logo1"><br> Imagem de definição da marca, Jonathas.RevisaTexto.</p>
-    <h2>Marca Jonathas.RevisaTexto impressa.</h2><br>
-    <p><img src="imagens/impresso1.png" alt="impresso1"><br>Imagem em uso.</p>
+    <picture>
+        <source media="(max-width: 170px" srcset="imagens/logo3.png" type="image">
+        <source media="(max-width: 390px)" srcset="imagens/logo2.png" type="image">
+        <img src="imagens/logo1.png" alt="logo1 flexível">
+    </picture>
+    <p><br> Imagem de definição da marca, Jonathas.RevisaTexto.</p>
+    <h2>Marca Jonathas.RevisaTexto impressa.</h2>
+    <picture>
+        <source media="(max-width: 330px" srcset="imagens/impresso3.png" type="image">
+        <source media="(max-width: 570px)" srcset="imagens/impresso2.png" type="image">
+        <img src="imagens/impresso1.png" alt="impresso1 flexível">
+    </picture>
+    <p>Imagem em uso.</p>
     <h2>Marca Jonathas.RevisaTexto na caneca.</h2>
-    <p><img src="imagens/caneca1.png" alt="caneca1"><br> Imagem impressa em caneca.</p>
+    <picture>
+        <source media="(max-width: 330px" srcset="imagens/caneca33.png" type="image">
+        <source media="(max-width: 570px)" srcset="imagens/caneca2.png" type="image">
+        <img src="imagens/caneca1.png" alt="caneca1 flexível">
+    </picture>
+    <p>Imagem impressa em caneca.</p>
     <p><button><a href="desafio01.html" del="prev">Back</a></button><button><a href="desafio03.html" rel="next">Next</a></button></p>
 </body>
 </html>
