@@ -200,9 +200,8 @@ body {
         bottom: 100%;
     }
 }
-.button > footer {
-    background: #03e9f4;
+p {
+    text-align: left;
     color: #fff;
-    border-radius: 5px;
-    border-color: #03e9f4;
+    border: #03e9f4;
 }
