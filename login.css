@@ -119,8 +119,8 @@ p {
 }
 button :hover {
     background-color: #243b55;
-    border-bottom: #03e9f4;
-    color: #fff;
+    border: 1px solid #03e9f4;
+    color: #243b55;
 }
 .login-box a span:nth-child(1) {
     top: 0;
