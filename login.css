@@ -21,6 +21,9 @@ body {
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
 }
+hr {
+    list-style: linear-gradient(to right, white,#250C59, to left, #250C59, white);
+}
 .login-box h2 {
     margin: 0 0 40px;
     padding: 0;
