@@ -25,12 +25,15 @@ body {
 }
 
 .login-box h2 {
-    margin: 0 0 30px;
+    margin: 0 0 0px;
     padding: 0;
     color: #fff;
     text-align: center;
 }
 
+.hr{
+    margin-bottom: 30px;
+}
 .login-box .user-box {
     position: relative;
 }
