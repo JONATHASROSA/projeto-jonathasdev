@@ -51,19 +51,6 @@ body {
     pointer-events: none;
     transition: .5s;
 }
-.hr {
-    display: inline-block;
-    unicode-bidi: isolate;
-    width: 275px;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
-}
-.text > p{
-    color: #fff;
-}
 .login-box .user-box input:focus ~ label, 
 .login-box .user-box input:valid ~ label {
     top: -20px;
