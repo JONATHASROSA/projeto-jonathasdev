@@ -57,6 +57,26 @@ body {
     pointer-events: none;
     transition: .5s;
 }
+.custom-checkbox input {
+    display: none;
+}
+
+.custom-checkbox input+label:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: #243b55;
+    border: 1px solid white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
+
+.custom-checkbox input:checked+label::before {
+    background-color: #03e9f4;
+}
 
 .login-box .user-box input:focus~label,
 .login-box .user-box input:valid~label {
