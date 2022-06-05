@@ -110,6 +110,20 @@ label{
     position: absolute;
     display: block;
 }
+footer {
+    background-color: #243b55;
+}
+
+p {
+    text-align: right;
+    color: #fff;
+}
+
+button {
+    background-color: #243b55;
+    border: #03e9f4;
+    color: #fff;
+}
 .login-box a span:nth-child(1) {
     top: 0;
     left: -100%;
@@ -185,12 +199,4 @@ label{
         bottom: 100%;
     }
 }
-p {
-    text-align: right;
-    color: #fff;
-}
-button {
-    background-color: #243b55;
-    border: #03e9f4;
-    color: #fff;
-}
+
