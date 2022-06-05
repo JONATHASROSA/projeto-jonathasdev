@@ -31,8 +31,8 @@ body {
     text-align: center;
 }
 
-.hr{
-    margin-bottom: 30px;
+.line {
+    margin-bottom: 50%;
 }
 .login-box .user-box {
     position: relative;
