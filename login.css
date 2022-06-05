@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
     background: linear-gradient(#250C59, #243b55);
 }
+.hr {
+    margin-top: none;
+    margin-bottom: 30px;
+}
 .login-box {
     position: absolute;
     top: 50%;
