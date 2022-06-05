@@ -61,6 +61,7 @@ body {
     transition: .5s;
 }
 .custom-checkbox input {
+    color: #fff;
     display: none;
 }
 
@@ -199,6 +200,9 @@ body {
     100% {
         bottom: 100%;
     }
+}
+footer{
+    text-align: right;
 }
 p {
     text-align: left;
