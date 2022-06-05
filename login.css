@@ -200,7 +200,7 @@ body {
         bottom: 100%;
     }
 }
-.bnt {
+.bnt > footer {
     background: #03e9f4;
     color: #fff;
     border-radius: 5px;
