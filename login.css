@@ -116,7 +116,7 @@ p {
     text-align: right;
     color: #fff;
 }
-button :hover {
+.button :hover {
     background: #03e9f4;
     color: #fff;
     border-radius: 5px;
