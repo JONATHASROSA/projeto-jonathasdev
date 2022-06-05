@@ -185,11 +185,12 @@ label{
         bottom: 100%;
     }
 }
-footer{
-    text-align: right;
-}
 p {
-    text-align: left;
+    text-align: right;
     color: #fff;
+}
+button {
+    background-color: #243b55;
     border: #03e9f4;
+    color: #fff;
 }
