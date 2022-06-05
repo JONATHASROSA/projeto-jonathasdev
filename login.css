@@ -69,6 +69,9 @@ hr {
     margin-right: 8px;
     margin-bottom: 3px;
 }
+.custom-checkbox input:checked + label::before {
+    background-color: #03e9f4;
+}
 
 .login-box .user-box input:focus ~ label, 
 .login-box .user-box input:valid ~ label {
