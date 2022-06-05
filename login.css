@@ -118,7 +118,7 @@ p {
     text-align: right;
     color: #fff;
 }
-button {
+button :hover {
     background-color: #243b55;
     border-bottom: #03e9f4;
     color: #fff;
