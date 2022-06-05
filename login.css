@@ -112,16 +112,15 @@ label{
 }
 footer {
     background-color: #243b55;
+    margin-bottom: 30px;
 }
-
 p {
     text-align: right;
     color: #fff;
 }
-
 button {
     background-color: #243b55;
-    border: #03e9f4;
+    border-bottom: #03e9f4;
     color: #fff;
 }
 .login-box a span:nth-child(1) {
