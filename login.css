@@ -65,6 +65,9 @@ body {
     display: none;
 }
 
+label{
+    color: #fff;
+}
 .custom-checkbox input+label:before {
     content:'';
     width: 18px;
