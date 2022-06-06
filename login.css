@@ -124,7 +124,7 @@ footer {
     padding: 0px;
     border: 50px;
     width: 100%;
-    position: absolute;
+    max-width: 500px;
 }
 p {
     background: #243b55;
