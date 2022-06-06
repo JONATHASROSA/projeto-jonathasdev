@@ -129,8 +129,7 @@ p {
     background: #243b55;
     text-align: right;
     color: #fff;
-    padding: 30px;
-    border-radius: 0px;
+    padding: 20px 40px 40px 40px;
 }
 .button :hover {
     color: #fff;
