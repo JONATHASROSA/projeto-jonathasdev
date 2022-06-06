@@ -126,7 +126,7 @@ p {
     border: 0px 30px 0px 30px;
 }
 .button {
-    border-bottom: solid, #03e9f4;
+    border-bottom: 5px solid, #03e9f4;
 }
 .button :hover {
     background: #fff;
