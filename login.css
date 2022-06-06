@@ -105,7 +105,7 @@ label{
     margin-bottom: 20px;
     letter-spacing: 4px
 }
-.login-box form a :hover {
+.login-box form a:hover {
     color: #fff;
     background-color: #14aff779;
     transform: translateY(-2px); 
