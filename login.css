@@ -121,7 +121,7 @@ footer {
 }
 p {
     background: #243b55;
-    margin: auto;
+    margin: 0px 30px 30px 30px;
     text-align: right;
     color: #fff;
 }
