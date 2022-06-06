@@ -28,9 +28,9 @@ body {
     text-align: center;
 }
 .line {
+    background: linear-gradient(90deg, transparent, #fff);
     margin-bottom: 30px;
     border-color: rgb(248, 246, 246);
-    linear-gradient: right 30px, left 30px;
 }
 .login-box .user-box {
     position: relative;
@@ -86,8 +86,6 @@ label{
     font-size: 12px;
 }
 .login-box form a {
-    padding-left: 30px;
-    padding-right: 30px;
     position: relative;
     display: inline-block;
     padding: 10px 20px;
