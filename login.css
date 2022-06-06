@@ -131,6 +131,7 @@ p {
     color: #fff;
     padding: 20px 30px 30px 30px;
     border: 0px 30px 0px 30px;
+    width: 100%;
 }
 .button :hover {
     color: #fff;
