@@ -32,7 +32,7 @@ body {
     text-align: center;
 }
 .line {
-    margin-bottom: 30px;
+    border: linear, green;
     border-color: rgb(248, 246, 246);
 }
 .login-box .user-box {
