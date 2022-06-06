@@ -104,14 +104,15 @@ label{
     margin-bottom: 20px;
     letter-spacing: 4px
 }
+
 footer {
-    background: 30px;
+    display: block;
+    width: 100%;
+    padding: 20px;
     background-color: #243b55;
     margin:0px;
     margin: (color, #243b55);
-    padding: 0px;
     border: 50px;
-    width: 100%;
     max-width: 500px;
 }
 p {
