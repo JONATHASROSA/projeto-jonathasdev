@@ -108,11 +108,11 @@ label{
 footer {
     display: block;
     width: 100%;
-    padding: 20px;
+    padding: 0px;
     background-color: #243b55;
     margin:0px;
     margin: (color, #243b55);
-    border: 50px;
+    border-radius: 25px;
     max-width: 500px;
 }
 p {
