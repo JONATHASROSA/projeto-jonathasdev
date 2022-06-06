@@ -130,7 +130,8 @@ p {
     text-align: right;
     color: #fff;
     padding: 20px 30px 30px 30px;
-    border: 30px;
+    border: 0px 30px 0px 30px;
+    margin:0px 30px 0px 30px;
 }
 .button :hover {
     color: #fff;
