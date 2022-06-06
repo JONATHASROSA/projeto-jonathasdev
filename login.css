@@ -104,10 +104,6 @@ label{
     margin-bottom: 20px;
     letter-spacing: 4px
 }
-.login-box a span {
-    position: absolute;
-    display: block;
-}
 footer {
     background: 30px;
     background-color: #243b55;
