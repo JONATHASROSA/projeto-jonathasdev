@@ -106,14 +106,13 @@ label{
 }
 
 footer {
-    display: block;
     position: relative;
     width: 100%;
     padding: 0px;
     background-color: #243b55;
     margin:0px;
-    margin: (color, #243b55);
-    max-width: 500px;
+    bottom: 0;
+    width: 400px;
 }
 p {
     background: #243b55;
