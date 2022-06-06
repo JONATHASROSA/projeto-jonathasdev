@@ -120,9 +120,10 @@ footer {
     background: 30px;
     background-color: #243b55;
     margin:0px;
-    padding: 2px 0;
+    margin: (color, #243b55);
+    padding: 0px;
     border: 50px;
-    width: 100vw;
+    width: 100%;
     max-width: 500px;
 }
 p {
