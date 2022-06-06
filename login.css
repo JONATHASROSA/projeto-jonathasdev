@@ -102,6 +102,7 @@ label{
     overflow: hidden;
     transition: .5s;
     margin-top: 20px;
+    margin-bottom: 20px;
     letter-spacing: 4px
 }
 .login-box a span {
