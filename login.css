@@ -109,12 +109,6 @@ label{
     color: #fff;
     background-color: #14aff779;
 }
-footer {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-    background-color: #243b55;
-}
 p {
     background: #243b55;
     text-align: right;
