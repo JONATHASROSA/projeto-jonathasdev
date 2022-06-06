@@ -110,6 +110,9 @@ label{
     background-color: #14aff779;
     transform: translateY(-2px); 
 }
+.login-box form a:disabled {
+    pointer-events: none;
+}
 footer {
     position: relative;
     width: 100%;
