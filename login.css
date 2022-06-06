@@ -121,11 +121,9 @@ footer {
 }
 p {
     background: #243b55;
+    margin: auto;
     text-align: right;
     color: #fff;
-}
-.bnt {
-    border-color: #03e9f4;
 }
 .button :hover {
     background: #03e9f4;
