@@ -115,7 +115,8 @@ footer {
     margin: 30px,#243b55 ;
 }
 p {
-    background-color: #243b55;
+    background: #243b55;
+    margin: 100px ;
     text-align: right;
     color: #fff;
 }
