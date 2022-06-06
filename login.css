@@ -46,7 +46,7 @@ div.gradient {
     font-size: 16px;
     color: #fff;
     margin-bottom: 30px;
-    border: none;
+    border: solid;
     border-bottom: 1px solid #fff;
     outline: none;
     background: transparent;
