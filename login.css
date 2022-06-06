@@ -108,7 +108,7 @@ label{
 .login-box form a:hover {
     color: #fff;
     background-color: #14aff779;
-    transform: translateY(-2px); 
+    transform: translateY(1px); 
 }
 .login-box form a:active {
     box-shadow: none;
