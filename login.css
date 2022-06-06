@@ -29,6 +29,7 @@ body {
 }
 .line {
     margin-bottom: 30px;
+    border-color: rgba(255, 0, 0, 0.20);
 }
 .login-box .user-box {
     position: relative;
@@ -84,6 +85,8 @@ label{
     font-size: 12px;
 }
 .login-box form a {
+    padding-left: 30px;
+    padding-right: 30px;
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -117,8 +120,6 @@ p {
     color: #fff;
 }
 .button :hover {
-    padding-left: 30px;
-    padding-right: 30px;
     background: #03e9f4;
     color: #fff;
     border-radius: 5px;
