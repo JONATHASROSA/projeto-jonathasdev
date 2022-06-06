@@ -47,7 +47,7 @@ div.gradient {
     color: #fff;
     margin-bottom: 30px;
     border: 1px solid #fff;
-    border-radius: 10px;
+    border-radius: 2px;
     outline: none;
     background: transparent;
 }
@@ -123,8 +123,10 @@ p {
 button {
     appearance: none;
     background-color: transparent;
-}
-.button :hover {
-    background: #fff;
-    border: solid #03e9f4;    
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #03e9f4;
+    cursor: pointer;
+    display: inline-block;
 }
