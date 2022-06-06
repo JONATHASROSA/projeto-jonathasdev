@@ -127,8 +127,7 @@ p {
 }
 .button :hover {
     background: #fff;
-    border: #03e9f4
-    color: #03e9f4 ;
+    border: solid #03e9f4
     border-radius: 5px;
     
 }
