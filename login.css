@@ -47,6 +47,7 @@ div.gradient {
     color: #fff;
     margin-bottom: 30px;
     border: 1px solid #fff;
+    border-radius: 10px;
     outline: none;
     background: transparent;
 }
@@ -120,7 +121,8 @@ p {
     border: 0px 30px 0px 30px;
 }
 button {
-    border-bottom: 5px solid, #03e9f4;
+    appearance: none;
+    background-color: transparent;
 }
 .button :hover {
     background: #fff;
