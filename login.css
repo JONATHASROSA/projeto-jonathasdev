@@ -28,7 +28,6 @@ body {
     text-align: center;
 }
 .line {
-    border: linear-gradient(90deg, transparent, #fff);
     margin-bottom: 30px;
     border-color: rgb(248, 246, 246);
 }
@@ -88,7 +87,7 @@ label{
 .login-box form a {
     position: relative;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 60px;
     color: #03e9f4;
     font-size: 16px;
     text-decoration: none;
