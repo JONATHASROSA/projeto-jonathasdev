@@ -123,10 +123,9 @@ p {
 button {
     appearance: none;
     background-color: transparent;
-    border: 0.125em solid #1A1A1A;
-    border-radius: 0.9375em;
+    border: 0.125em solid #629fe6;
     box-sizing: border-box;
-    color: #03e9f4;
+    color: #fff;
     cursor: pointer;
     display: inline-block;
 }
