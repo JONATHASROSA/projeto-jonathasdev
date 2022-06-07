@@ -32,12 +32,12 @@ footer p {
     top: 50%;
     left: 50%;
     width: 400px;
-    padding: 40px 40px 0px 40px;
+    padding: 40px;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, .5);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .login-box h2 {
     margin: 0 0 0px;
@@ -124,10 +124,10 @@ label{
     background-color: #14aff779;
 }
 p {
-    background: #243b55;
+    background: none;
     text-align: right;
     color: #fff;
-    padding: 20px 10px 10px 10px;
+    padding: 0px;
     max-width: 500px;
 }
 button {
