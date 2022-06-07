@@ -20,13 +20,15 @@ footer{
     width: 100%;
     background: #3c6faa;
     padding: 20px 0px 10px 0px;
-    Border-bottom-right-radius: 10px;
-    Border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 footer p {
     text-align: right;
     padding-right: 40px;
     color: #fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .login-box {
