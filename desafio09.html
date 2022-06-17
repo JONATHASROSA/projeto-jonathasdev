@@ -14,7 +14,7 @@
             height: 300px;
             text-align: center;
         }
-        td {
+        td, th {
             border: 1px solid black;
         }
         .filmes{
@@ -25,6 +25,14 @@
             font-weight: bold;
             padding: 10px;
         }
+       .boleto {
+        border-collapse: collapse;
+        text-align: center;
+        padding: 200px;
+       }
+      .boleto > th {
+        background-color: gray;
+       }
     </style>
 </head>
 <body>
@@ -85,15 +93,14 @@
     <h1>Tabela mesclada  - 3</h1>
     <table class="filmes">
         <caption>Filmes Favoritos</caption>
-        </caption>
         <thead>
-            <td>Grupos</td>
-            <td>Nomes</td>
-            <td colspan="3">Filmes</td>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
         </thead>
        <tbody>
         <tr>
-            <td rowspan="3">Mulheres</td>
+            <th rowspan="3" scope="rowgroup">Mulheres</th>
             <td>Ana Maria Santos</td>
             <td>Alien</td>
             <td>Rambo</td>
@@ -112,7 +119,7 @@
             <td>Big Hero</td>
         </tr>
         <tr>
-            <td rowspan="3">Homens</td>
+            <th rowspan="3" scope="rowgroup">Homens</th>
             <td>Bruno Mendonça</td>
             <td>Intocáveis</td>
             <td>Amnésia</td>
@@ -131,6 +138,71 @@
             <td>Toy Story</td>
         </tr>
        </tbody>
+       <tfoot>
+        <th colspan="4" scope="rowgroup">Total</th>
+        <td>1000</td>
+       </tfoot>
+    </table>
+    <h1>Tabela - Boletim Escolar</h1>
+    <table class="boleto">
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Médias</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>7</td>
+                <td>8</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>5</td>
+                <td>6</td>
+                <td>5.5</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>4</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>8</td>
+                <td>9</td>
+                <td>8.5</td>
+            </tr>
+            <th colspan="4">Média total Área Exatas</th>
+            <th>6.8</th>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>5</td>
+                <td>4</td>
+                <td>4.5</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>5</td>
+                <td>6</td>
+                <td>5.5</td>
+            </tr>
+            <tr>
+                <th colspan="4">Média Total Área Humanas</th>
+                <th>5</th>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
