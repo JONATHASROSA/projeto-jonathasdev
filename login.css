@@ -19,9 +19,9 @@ footer{
     left: 0;
     width: 100%;
     background: #3c6faa;
-    padding: 20px 0px 10px 0px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    padding: 10px 0px 10px 0px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 footer p {
     text-align: right;
