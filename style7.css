@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body {
+    background-image: url('imagens/Sipder-Morales.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 88vh;
+    color: white;
+}
+.container {
+    width: 450px;
+    height: 450px;
+}
+footer {
+    color: white;
+}
