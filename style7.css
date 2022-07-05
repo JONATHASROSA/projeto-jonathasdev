@@ -6,10 +6,24 @@ body {
     height: 88vh;
     color: white;
 }
-.container {
+h1 {
+    text-align: center;
+}
+section {
+    background: white;
+    color: #13136d;
+    text-align: justify;
+    border: solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(60deg, #13136d, #c52323);
+    padding: 10px;
     width: 450px;
-    height: 450px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
 }
 footer {
+    text-align: center;
     color: white;
+    font-style: italic;
 }
